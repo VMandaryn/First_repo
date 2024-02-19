@@ -4,19 +4,22 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .wrapper{
     background: #ffffff;
     display: flex;
     flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.main-content {
-    padding-left: 88px;
-    padding-top: 80px;
-    padding-right: 40px;
-    padding-bottom: 80px;
-    box-sizing: border-box;
-}
+
+
+/* start --- Sidebar */
 
 .sidebar{
     background: #e0ebfe;
@@ -31,7 +34,8 @@ body {
     padding-top: 40px;
     padding-right: 40px;
 }
-
+    
+        /* Sidebar ---> contacts */
 .contacts-title {
     color: #161d2a;
     font-size: 22px;
@@ -66,6 +70,7 @@ body {
     margin-bottom: 40px;
 }
 
+        /* Sidebar ---> hard skills */
 .skills-container {
     margin-bottom: 40px;
 }
@@ -90,6 +95,8 @@ body {
     line-height: 24px;
 }
 
+
+        /* Sidebar ---> soft skills */
 .soft-skills-container {
     margin-bottom: 40px;
 }
@@ -112,4 +119,195 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* end --- Sidebar */
+
+
+
+/* start --- Main content */
+
+.main-content {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.my-proffesion {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+
+        /* Main content ---> Projects */
+
+.my-projects-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-projects-item-link {
+    color: #005fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.my-projects-item-tech {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+/* End --- Main content */
+
+
+
+/* Start --- My Work Experience */
+
+.work-exp-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-exp-container {
+    margin-bottom: 12px;
+}
+
+.work-exp-company {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name {
+    color: #609bf5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.work-exp-period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.work-exp-period-separator {
+    color: #000;
+}
+
+.work-exp-duties-list {
+    padding-left: 16px;
+}
+
+.work-exp-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* End --- My Work Experience */
+
+
+
+/* Start --- My Education */
+
+.education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.education-container {
+    margin-bottom: 12px;
+}
+
+.education-provider {
+    color: #609bf5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.education-profession {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.education-period-separator {
+    color: #000;
 }
